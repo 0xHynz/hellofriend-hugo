@@ -1,0 +1,60 @@
+baseurl      = "localhost"
+title        = "0xHynz Blog"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "Just a wannabe hacker.."
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = false
+
+  # Metadata mostly used in document's head
+  description = "wannabe hacker"
+  keywords = "hacker, hacking, web development, security, infosec, pwn, exploit, programming"
+  images = [""]
+
+[taxonomies]
+    category = "categories"
+    tag      = "tags"
+    series = "series"
+
+[languages]
+  [languages.en]
+    title = "0xHynn Blog"
+    subtitle = "Just a wannabe hacker"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "0xhynn"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/0xHynz"
+
+[[params.social]]
+  name = "email"
+  url = "mailto:0xhynz@gmail.com"
